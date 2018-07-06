@@ -1,0 +1,142 @@
+﻿#line-chart {
+    height:300px;
+    width:800px;
+    margin: 0px auto;
+    margin-top: 1em;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover { 
+    color: #fff;
+}
+
+.outer {
+    margin:0 auto; padding-top: 200px; width:1000px; text-align:center;
+}
+.div_customer{width:263px; height:133px; background-image:url("/Content/images/customer.png"); float:left;margin-left:60px; }
+.div_goods{width:263px; height:133px; background-image:url("/Content/images/goods.png"); float:left; margin-left:40px; }
+.div_material{width:263px; height:133px; background-image:url("/Content/images/material.png"); float:left;margin-left:40px; }
+
+.template {
+    width:78%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.files {
+    width:50%;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align:center;
+}
+.datafile {
+    width:65%;
+    float:left;
+    margin-top:2px;
+}
+.uploadbtn {
+    width:15%;
+    float:left;
+    margin-left:10px;
+}
+
+.importbtn {
+    width:15%;
+    float:left;
+    margin-left:10px;
+}
+
+.dtable {
+    padding-top: 45px;
+    margin: 0 auto;
+    width:90%;
+    text-align:center;
+}
+
+.oktip {
+    padding-top: 100px;
+    margin: 0 auto;
+    width:100%;
+    text-align:center;
+}
+
+.tiptext {
+    padding-top: 10px;
+    font-size:14px;
+    margin: 0 auto;
+    width:100%;
+    text-align:center;
+}
+
+.bootstrap-select .btn {
+    width: 90%;
+}
+
+.dataTable {
+    text-align: center;
+}
+
+.dataTable > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.dataTables_info {
+    width: 48%;
+    float: left;
+}
+
+.dataTables_paginate {
+    width: 48%;
+    float: right;
+}
+
+.right {
+    width: 100%;
+}
+
+.right #light {
+    width: 45%;
+    float: left;
+    text-align: left;
+}
+
+.right .Blight {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.hidden {
+    display: none;
+}
+
+.infos {
+    font-size:16px;
+    font-weight: 600;
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width:100%;
+    text-align:center;
+}
+
+.preinfos {
+    font-size:16px;
+    font-weight: 600;
+    color: #0275d8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width:100%;
+    text-align:left;
+}
+
+.errorinfos {
+    font-size:16px;
+    font-weight: 600;
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width:100%;
+    text-align:left;
+}

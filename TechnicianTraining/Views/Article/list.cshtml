@@ -1,0 +1,73 @@
+﻿<html>
+<head>
+<title>加盟店APP技师培训内容管理系统</title>
+<meta charset="UTF-8">
+<meta id="viewport" name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, height=device-height" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="cache-control" content="no-cache"/>
+<meta name="robots" content="all" />
+
+<link rel="stylesheet" type="text/css" href="/Content/webdoc/css/render.css">
+<script src="/Content/webdoc/js/loading.js"></script>
+<script src="~/Content/webdoc/js/warning.js"></script>
+<script src="~/Content/webdoc/js/jquery-1.10.2.min.js"></script>
+<script src="~/Content/jquery/layer.js"></script>
+<script src="~/Content/webdoc/js/common.js"></script>
+<script src="~/Content/webdoc/js/list.js"></script>
+</head>
+
+<body>
+
+<div class="contentbox_inner">
+  <div class="boxin">
+    <a class="backHome" href="/Home/Index" target="_top"><i>返回首页</i></a> 
+    <h2 class="heading02" ><span id="parentName"></span></h2>
+    <div class="toolBar01">
+	    <ul class="tool">
+		    <li><p class="UnCheckAll" id="checkAll"><i>全选</i></p></li>
+		    <li><p class="Delete" id="deleteCheck"><i>删除所选</i></p></li>
+		    <li><p class="Empty" id="empty"><i>清空当前节点</i></p></li>
+		    <li><p class="New"><a href="javascript:void(0);" onclick="AddNew()" target="_top"><i>新增文章</i></a></p></li>
+            <li><p class="MoveFile" id="MoveFile"><i>移动到</i></p></li>
+            <li><p class="AppC" id="AppC"><i>车主App可展示</i></p></li>
+	    </ul>
+    </div>
+	<div class="nodeList off" id="nodeList">
+		<div class="nodeListInner" id="nodeListItem">
+			@*<ul class="menu">
+				<li><p data-count="(15)"><b>新建节点</b></p></li>
+				<li><p data-count="(0)"><b>新建节点</b></p></li>
+					<ul>
+						<li><p data-count="(38)"><b>新建节点</b></p></li>
+						<li><p data-count="(0)"><b>新建节点</b></p>
+							<ul>
+								<li><p data-count="(0)"><b>新建节点</b></p>
+									<ul>
+										<li><p data-count="(46)"><b>新建节点</b></p></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>*@
+		</div>
+		<div class="submitBox">
+			<ul class="btn_in2">
+				<li class="item">
+					<a href="javascript:void(0);" class="btnType_capsule btnType_S btnLooks_hollow" id="Cancel">取消</a>
+				</li>
+				<li class="item">
+					<a href="javascript:void(0);" class="btnType_capsule btnType_S btnLooks_hollow" id="Confirm">移动</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+    <div class="list" id="list"></div>
+    <hr>
+    <div class="pagenum" id="pagenum"></div>
+	</div>
+</div>
+</body>
+</html>

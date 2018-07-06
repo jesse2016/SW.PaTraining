@@ -1,0 +1,105 @@
+﻿@{
+    Layout = "~/Views/Shared/_Article_Layout.cshtml";
+}
+
+<script src="/Content/webdoc/js/funbinding.js"></script>
+<script src="/Content/webdoc/js/function_of_contentbox.js"></script>
+<script src="/Content/webdoc/js/wash_style.js"></script>
+<script src="~/Content/webdoc/js/jquery-1.10.2.min.js"></script>
+<script src="~/Content/jquery/layer.js"></script>
+<script src="~/Content/webdoc/js/uploadFile.js"></script>
+<script src="~/Content/webdoc/js/common.js"></script>
+<section class="toolBar" id="toolBar">
+	<ul class="tool">
+		<li>
+			<p><q class="FontSize"><i>字号</i></q></p>
+			<p class="fontSizeRange" id="FontSize">
+				<b>1</b>
+				<b>2</b>
+				<b>3</b>
+				<b>4</b>
+				<b>5</b>
+				<b>6</b>
+				<b>7</b>
+			</p>
+		</li>
+		<li>
+			<q class="Bold" id="Bold"><i>加粗</i></q>
+			<q class="Clear" id="Clear"><i>清除样式</i></q>
+		</li>
+		<li id="setColor" class="setColor">
+			<p>
+				<b data-color="#4fc0ff" style="background:#4fc0ff;"></b>
+				<b data-color="#00a0ff" style="background:#00a0ff;"></b>
+				<b data-color="#0074bc" style="background:#0074bc;"></b>
+				<b data-color="#004d81" style="background:#004d81;"></b>
+			</p>
+			<p>
+				<b data-color="#6dfeeb" style="background:#6dfeeb;"></b>
+				<b data-color="#00e9cf" style="background:#00e9cf;"></b>
+				<b data-color="#00a89f" style="background:#00a89f;"></b>
+				<b data-color="#007b77" style="background:#007b77;"></b>
+			</p>
+			<p>
+				<b data-color="#84fc3d" style="background:#84fc3d;"></b>
+				<b data-color="#5dda23" style="background:#5dda23;"></b>
+				<b data-color="#06b400" style="background:#06b400;"></b>
+				<b data-color="#007300" style="background:#007300;"></b>
+			</p>
+			<p>
+				<b data-color="#fffe59" style="background:#fffe59;"></b>
+				<b data-color="#fbe400" style="background:#fbe400;"></b>
+				<b data-color="#fabb00" style="background:#fabb00;"></b>
+				<b data-color="#ff9500" style="background:#ff9500;"></b>
+			</p>
+			<p>
+				<b data-color="#ff968b" style="background:#ff968b;"></b>
+				<b data-color="#ff6347" style="background:#ff6347;"></b>
+				<b data-color="#f11d00" style="background:#f11d00;"></b>
+				<b data-color="#b81400" style="background:#b81400;"></b>
+			</p>
+			<p>
+				<b data-color="#ff8cc7" style="background:#ff8cc7;"></b>
+				<b data-color="#f15ca7" style="background:#f15ca7;"></b>
+				<b data-color="#cd237c" style="background:#cd237c;"></b>
+				<b data-color="#9a135e" style="background:#9a135e;"></b>
+			</p>
+			<p>
+				<b data-color="#e6e6e6" style="background:#e6e6e6;"></b>
+				<b data-color="#d6d4d5" style="background:#d6d4d5;"></b>
+				<b data-color="#999898" style="background:#999898;"></b>
+				<b data-color="#4d4d4d" style="background:#4d4d4d;"></b>
+			</p>
+		</li>
+	</ul>
+</section>
+<section class="pagebox">
+    <div class="home_add"><a class="backHome" href="/Home/Index"><i>返回首页</i></a></div>
+    <form enctype="multipart/form-data" id="article_form" method="post">
+	    @*<fieldset class="container">
+            <i hidden="hidden">title</i>
+            <i hidden="hidden" id="nodeId"></i>
+		    <legend>
+			    <b class="Heading"><i>主标题</i></b>
+			    <em></em>
+		    </legend>
+		    <h2 class="newContent_t" id="title" contenteditable="true"></h2>
+		    <hr>
+		    <ul class="tool">
+			    <li><p class="Heading"><i>追加副标题</i></p></li>
+			    <li><p class="Paragraph"><i>追加段落</i></p></li>
+			    <li><p class="Images"><i>追加图片</i></p></li>
+			    <li><p class="Video"><i>追加视频</i></p></li>
+		    </ul>
+	    </fieldset>
+        <div id="content"></div>
+	    <div class="btnBox">
+		    <hr>
+		    <div class="btnBoxIn">
+			    <a id="submit" class="btnType_capsule btnType_L btnLooks_solid" href="javascript:void(0);">保存</a>
+			    <a class="btnType_capsule btnType_L btnLooks_hollow" href="javascript:history.back(-1);">放弃</a>
+		    </div>
+	    </div>*@
+    </form>
+</section>
+<script src="~/Content/webdoc/js/modify.js"></script>

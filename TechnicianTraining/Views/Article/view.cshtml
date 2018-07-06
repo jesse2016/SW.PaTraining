@@ -1,0 +1,22 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<div class="btnBox">
+    <div class="btnBoxIn mt20">
+       <a class="btnType_capsule btnType_L btnLooks_hollow backPrev" onclick="goback()" href="javascript:void(0);"><i>返回</i></a>
+    </div>
+</div>*@
+
+<div class="buttonBox">
+	<a class="btnType_capsule btnType_S btnLooks_hollow" onclick="gomodify()" href="javascript:void(0);"><i>编辑文章</i></a>
+	<a class="btnType_capsule btnType_S btnLooks_hollow" onclick="gobacklist()" href="javascript:void(0);"><i>返回文章列表</i></a>
+</div>
+<section class="previewBox">
+	<iframe id="article" style="width:100%;height:100%;" frameborder="0" src=""></iframe>
+</section>
+
+@*<section class="previewBox" id="previewBox"></section>*@
+<script src="~/Content/webdoc/js/jquery-1.10.2.min.js"></script>
+<script src="~/Content/webdoc/js/common.js"></script>
+<script src="~/Content/webdoc/js/preview.js"></script>
