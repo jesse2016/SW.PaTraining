@@ -1,2 +1,2 @@
 # SW.PaTraining
-ASP.NET MVC 数据批量导入
+ASP.NET MVC 技师培训APP内容管理系统
